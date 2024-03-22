@@ -8,12 +8,12 @@ int main() {
   std::string nome = "Ana";
   bool isTrue = true;
 
-  // Exibe os valores das variáveis
-  std::cout << "numero: " << numero << std::endl;
-  std::cout << "pi: " << pi << std::endl;
-  std::cout << "letra: " << letra << std::endl;
-  std::cout << "nome: " << nome << std::endl;
-  std::cout << "isTrue: " << isTrue << std::endl;
+  // Usando printf para formatar e imprimir os valores das variáveis
+  printf("numero: %d\n", numero);
+  printf("pi: %.2f\n", pi);
+  printf("letra: %c\n", letra);
+  printf("nome: %s\n", nome.c_str());
+  printf("isTrue: %d\n", isTrue);
 
   // Retorna 0 para indicar sucesso
   return 0;
